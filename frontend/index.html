@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chraset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Games</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../assets/GameofGamesV4-Transparent.png" alt="GoG Logo" class="logo">
+            <div class="hover-box">
+                <p><strong>Founders:</strong><br>The Boys</p>
+                <br>
+                <p><strong>Developer:</strong><br>Dan Pudig</p>
+                <br>
+                <p><strong>Illustrator:</strong><br>Madi Foley</p>
+            </div>
+        </div>
+        <div class="title" id="title">Game of Games</div>
+        <div class="header-right"></div>
+    </header>
+
+    <div class="main-content">
+        <div id="left" class="big-box">
+            <div class="button-section">
+                <button class="button" id="newGame" onclick="newGame()">Start New Game</button>
+                <button class="button" id="continueGame" onclick="continueGame()">Continue Game</button>
+                <button class="button" id="log" onclick="viewLogs()">View Logs</button>
+                <button class="button" id="stats" onclick="viewStats()">View Stats</button>
+            </div>
+        </div>
+
+        <div id="right-section" class="big-box">
+            <div id="right">
+                <h1 header="header" id="main-page-header">On the main page:</h1>
+                <div class="section" id="main-page-section">
+                    <div class="box">
+                        <h3>Start New Game</h3>
+                        <br>
+                        <p>Create a new Game of Games (outlined below)</p>
+                    </div>
+                    <div class="box">
+                        <h3>Continue Game</h3>
+                        <br>
+                        <p>Continue an incomplete Game of Games</p>
+                    </div>
+                    <div class="box">
+                        <h3>View Logs</h3>
+                        <br>
+                        <p>View the log of any previous Game of Games</p>
+                    </div>
+                    <div class="box">
+                        <h3>View Stats</h3>
+                        <br>
+                        <p>View the overall stats of any player or any game</p>
+                    </div>
+                </div>
+                <h1 header="header" id="create-header">Starting a new Game of Games:</h1>
+                <div class="section" id="create-section">
+                    <div class="box">
+                        <h3>Step 1:</h3>
+                        <br>
+                        <p>Select the options for the type of GoG that will be played</p>
+                    </div>
+                    <div class="box">
+                        <h3>Step 2:</h3>
+                        <br>
+                        <p>Select which players will be playing in the GoG</p>
+                    </div>
+                    <div class="box">
+                        <h3>Step 3:</h3>
+                        <br>
+                        <p>Select which games will be available to play in the GoG</p>
+                    </div>
+                    <div class="box">
+                        <h3>Step 4:</h3>
+                        <br>
+                        <p>Select the specialty game(s) for each player</p>
+                    </div>
+                    <div class="box">
+                        <h3>Step 5:</h3>
+                        <br>
+                        <p>Confirm the info and<br>begin the Game.<br>Good Luck!</p>
+                    </div>
+                </div>
+                <h1 header="header" id="play-header">Playing the Game of Games:</h1>
+                <div class="section" id="play-section">
+                    <div class="box">
+                        <h3>Step 1:</h3>
+                        <br>
+                        <p>The GoG always starts with everyone having a shot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

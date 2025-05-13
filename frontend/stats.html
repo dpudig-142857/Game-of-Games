@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chraset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Games</title>
+    <link rel="stylesheet" href="stats.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../assets/GameofGamesV4-Transparent.png" alt="GoG Logo" class="logo">
+            <div class="hover-box">
+                <p><strong>Founders:</strong><br>The Boys</p>
+                <br>
+                <p><strong>Developer:</strong><br>Dan Pudig</p>
+                <br>
+                <p><strong>Illustrator:</strong><br>Madi Foley</p>
+            </div>
+        </div>
+        <div class="title" id="title">Game of Games Stats</div>
+        <div class="header-right">
+            <button class="back-button" onclick="window.history.back()">Back</button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div id="left" class="big-box">
+            <div id="left-top">
+                <div class="button-section">
+                    <button class="button" id="playerButton" onclick="showPlayers()">Players</button>
+                    <button class="button" id="gameButton" onclick="showGames()">Games</button>
+                    <button class="button" id="totalButton" onclick="showTotal()">Totals</button>
+                </div>
+            </div>
+            <p class="horizontal-line"></p>
+            <div id="left-bottom">
+                <div id="left-players"></div>
+                <div id="left-games"></div>
+            </div>
+        </div>
+
+        <div id="right" class="big-box">
+            <div id="right-player">
+                <div id="player-name"></div>                                <!-- Name -->
+                <div id="player-info">
+                    <div id="player-played" class="right-box"></div>        <!-- Played -->
+                    <div id="player-chance" class="right-box"></div>        <!-- Win chance -->
+                </div>
+                <div id="player-places-div">
+                    <div id="player-places"></div>                          <!-- Places -->
+                </div>
+                <div id="player-intrude-abandon">
+                    <div id="player-intrude" class="right-box"></div>       <!-- Intruded -->
+                    <div id="player-abandon" class="right-box"></div>       <!-- Abandoned -->
+                </div>
+                <div id="player-shots-div">
+                    <div id="player-shots"></div>                           <!-- Shot info -->
+                </div>
+                <div id="player-points-div">
+                    <div id="player-points"></div>                          <!-- Point info -->
+                </div>
+                <div id="player-cards-div">
+                    <div id="player-cards"></div>                           <!-- Card info -->
+                </div>
+                <div id="player-games-info">
+                    <div id="player-games-played" class="right-box"></div>  <!-- Games played -->
+                    <div id="player-games-won" class="right-box"></div>     <!-- Games won -->
+                    <div id="player-games-lost" class="right-box"></div>    <!-- Games lost -->
+                    <div id="player-games-chance" class="right-box"></div>  <!-- Games winning chance -->
+                </div>
+                <div id="player-games-div">
+                    <div id="player-games"></div>                           <!-- Games -->
+                </div>
+            </div>
+            <div id="right-game">
+                <div id="game-name"></div>
+                <div id="game-info">
+                    <div id="game-played" class="right-box"></div>
+                    <div id="game-chance" class="right-box"></div>
+                    <div id="game-neigh" class="right-box"></div>
+                    <div id="game-super" class="right-box"></div>
+                </div>
+                <div id="game-players"></div>
+            </div>
+            <div id="right-total">
+                <h1 id="total-title">Game of Games Stats</h1>
+                <div id="total-gog"></div>
+                <div id="total-games"></div>
+                <div id="total-player"></div>
+                <div id="total-players-div">
+                    <div id="total-players"></div>
+                </div>
+                <div id="total-shots-div">
+                    <div id="total-shots"></div>
+                </div>
+                <div id="total-points-div">
+                    <div id="total-points"></div>
+                </div>
+                <div id="total-cards-div">
+                    <div id="total-cards"></div>
+                </div>
+                <div id="total-logs-div">
+                    <div id="total-logs"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="stats.js"></script>
+</body>
+</html>

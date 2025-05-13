@@ -1,0 +1,13 @@
+['Danny', 'Alex']
+['Gid', 'Jake']
+['Dan', 'Bye']
+
+
+['(Winner of Danny vs Alex)', '(Winner of Gid vs Jake)']
+['(Dan)', 'Bye']
+
+
+['((Dan))', '(Winner of (Winner of Danny vs Alex) vs (Winner of Gid vs Jake))']
+
+
+['(Winner of ((Dan)) vs (Winner of (Winner of Danny vs Alex) vs (Winner of Gid vs Jake)))', 'Winner']

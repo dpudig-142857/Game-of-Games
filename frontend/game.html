@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Games</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../assets/GameofGamesV4-Transparent.png" alt="GoG Logo" class="logo">
+            <div class="hover-box">
+                <p><strong>Founders:</strong><br>The Boys</p>
+                <br>
+                <p><strong>Developer:</strong><br>Dan Pudig</p>
+                <br>
+                <p><strong>Illustrator:</strong><br>Madi Foley</p>
+            </div>
+        </div>
+        <button type="submit" class="button" id="intrude" onclick="intrudeGame()">Intrude<br>Game</button>
+        <div class="header" id="header"></div>
+        <button type="submit" class="button" id="abandon" onclick="abandonGame()">Abandon<br>Game</button>
+        <div class="header-right">
+            <button class="back-button" onclick="saveGoG()">Home</button>
+        </div>
+    </header>
+
+    <div class="main-content" id="mainContent">
+        <div class="left-container">
+            <div id="box">
+                <!-- Welcome section -->
+                <div id="welcome">
+                    <h1>LET THE<br>GAME OF GAMES<br>BEGIN</h1>
+                    <h3>and may the odds be ever in your favour</h3>
+                </div>
+
+                <!-- Game Title -->
+                <h1 id="title"></h1>
+                <h2 id="specialityTitle"></h2>
+
+                <!-- Wheel Shot -->
+                <div id="wheelShot">
+                    <div id="wheelTitle">
+                        <h2>IT'S TIME FOR A SHOT</h2><br><h3>WHO'S IT GOING TO BE?</h3><br><h4>NO ONE KNOWS YET LOL</h4>
+                    </div>
+                    <br><br><br>
+                    <div id="wheelShotResult">
+                        <h1 id="ratatouille"></h1>
+                        <br><br><br>
+                        <button type="submit" class="button" id="wheelComplete" onclick="completeShotWheel()">Shot<br>Complete</button>
+                    </div>
+                </div>
+
+                <!-- Neigh Section -->
+                <div id="askNeigh">
+                    <br>
+                    <h2 id="ask1">Unless someone wants to neigh?</h2>
+                    <div id="neighButtons1">
+                        <button type="submit" class="button" id="yesNeigh1" onclick="neigh(true, 1)">Yes</button>
+                        <button type="submit" class="button" id="noNeigh1" onclick="neigh(false, 1)">No</button>
+                    </div>
+                    <h2 id="ask2">Does someone want to neigh that neigh?</h2>
+                    <div id="neighButtons2">
+                        <button type="submit" class="button" id="yesNeigh2" onclick="neigh(true, 2)">Yes</button>
+                        <button type="submit" class="button" id="noNeigh2" onclick="neigh(false, 2)">No</button>
+                    </div>
+                    <h2 id="ask3">What about that neigh?</h2>
+                    <div id="neighButtons3">
+                        <button type="submit" class="button" id="yesNeigh3" onclick="neigh(true, 3)">Yes</button>
+                        <button type="submit" class="button" id="noNeigh3" onclick="neigh(false, 3)">No</button>
+                    </div>
+                    <select id="selectNeighPlayer" class="game_select"></select>
+                    <select id="selectNeighType" class="game_select"></select>
+                </div>
+            </div>
+            <div id="buttonBox">
+                <button type="submit" class="button" id="submit" onclick="submitGame()">Submit<br>Game</button>
+                <button type="submit" class="button" id="complete">Complete<br>Game</button>
+                <button type="submit" class="button" id="next" onclick="nextGame()">Next<br>Game</button>
+                <button type="submit" class="button" id="break" onclick="pickBreakShot()">Break<br>Shot</button>
+                <button type="submit" class="button" id="victory" onclick="pickVictoryShot()">Victory<br>Shot</button>
+                <button type="submit" class="button" id="finish" onclick="finishGoG()">Finish Game<br>of Games</button>
+            </div>
+        </div>
+
+        <div id="middle-container">
+            <div id="middle-box">
+                <div id="intrude-game">
+                    <h1>Who's intruding the game?</h1>
+                    <div id="intrude-game-players"></div>
+                    <div id="intrude-game-specialities"></div>
+                    <h2 id="intrude-game-result"></h2>
+                    <button type="submit" class="button" id="intrude-game-button" onclick="intrude()">Intrude Player</button>
+                    <button type="submit" class="button" id="intrude-game-back" onclick="closeIntrude()">Back</button>
+                </div>
+                <div id="abandon-game">
+                    <h1>Who's abandoning the game?</h1>
+                    <div id="abandon-game-players"></div>
+                    <h2 id="abandon-game-result"></h2>
+                    <button type="submit" class="button" id="abandon-game-button" onclick="abandon()">Abandon Player</button>
+                    <button type="submit" class="button" id="abandon-game-back" onclick="closeAbandon()">Back</button>
+                </div>
+                <div id="break-shot">
+                    <h1>Who's having a break shot?</h1>
+                    <div id="break-shot-players"></div>
+                    <button type="submit" class="button" id="break-shot-button" onclick="breakTime()">Shot Time!</button>
+                    <button type="submit" class="button" id="break-shot-back" onclick="closeBreakTime()">Back</button>
+                </div>
+                <div id="victory-shot">
+                    <div id="victory-shot-players"></div>
+                    <button type="submit" class="button" id="victory-shot-button" onclick="victoryTime()">Shot Time!</button>
+                    <button type="submit" class="button" id="victory-shot-back" onclick="closeVictoryTime()">Back</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div id="game_wheel">
+                <canvas id="wheel" width="400" height="400"></canvas>
+                <div id="spin">SPIN</div>
+            </div>
+            <div id="player_wheel">
+                <canvas id="wheel2" width="400" height="400"></canvas>
+                <div id="spin2">SPIN</div>
+            </div>
+            <div id="choosing_game"></div>
+            <div id="voting_game">
+                <div id="voting"></div>
+                <button type="submit" class="button" id="vote" onclick="submitVotes()">Submit<br>Votes</button>
+            </div>
+            <div id="overallResultsBox">
+                <h1 id="overallResultsTitle">Current Overall Results</h1>
+                <div id="overallResults"></div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

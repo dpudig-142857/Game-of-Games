@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Games</title>
+    <link rel="stylesheet" href="create_game.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../assets/GameofGamesV4-Transparent.png" alt="GoG Logo" class="logo">
+            <div class="hover-box">
+                <p><strong>Founders:</strong><br>The Boys</p>
+                <br>
+                <p><strong>Developer:</strong><br>Dan Pudig</p>
+                <br>
+                <p><strong>Illustrator:</strong><br>Madi Foley</p>
+            </div>
+        </div>
+        <div class="title" id="title">Creating Game of Games</div>
+        <div class="header-right">
+            <button class="back-button" onclick="window.history.back()">Back</button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <h1 id="step-header">Step 1 - Systems</h1>
+        <div id="step-1" class="big-box">
+            <div class="systems">
+                <div class="pointsSystem">
+                    <h2 class="selection-title">Point System?</h1>
+                </div>
+                <p class="vertical-line"></p>
+                <div class="gamesSystem">
+                    <h2 class="selection-title">Game Selection System?</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="step-2" class="big-box">
+            <div class="players"></div>
+            <p class="horizontal-line"></p>
+            <div class="addPlayerDiv">
+                <button type="submit" class="button" id="addPlayer" onclick="createAddPlayer()">Add<br>Player</button>
+                <input type="text" id="addPlayerName" class="addPlayerName" placeholder="Enter name...">
+                <button type="submit" class="button" id="confirmPlayer" onclick="confirmPlayer()">Confirm<br>Player</button>
+            </div>
+        </div>
+
+        <div id="step-3" class="big-box">
+            <div class="games"></div>
+            <p class="horizontal-line"></p>
+            <div class="addGameDiv">
+                <button type="submit" class="button" id="addGame" onclick="createAddGame()">Add<br>Game</button>
+                <input type="text" id="addGameName" class="addGameBox" placeholder="Enter name...">
+                <!--<input type="text" id="addGameName" class="addGameBox" placeholder="Enter game type...">
+                <input type="text" id="addGameResults" class="addGameBox" placeholder="Enter results type...">-->
+                <input type="number" id="addGameMin" class="addGameBox" min="0" max="99" placeholder="Enter min players...">
+                <input type="number" id="addGameMax" class="addGameBox" min="0" max="99" placeholder="Enter max players...">
+                <button type="submit" class="button" id="confirmGame" onclick="confirmGame()">Confirm<br>Game</button>
+            </div>
+        </div>
+
+        <div id="step-4" class="big-box">
+            <input type="number" id="specialityNum" min="0" max="10" placeholder="Enter number of specialties..." onchange="changeSpecialityNum()" onkeydown="return false">
+            <p class="horizontal-line"></p>
+            <div id="specialityPlayers"></div>
+        </div>
+
+        <div id="step-5" class="big-box">
+            
+        </div>
+
+        <div class="buttons">
+            <button type="submit" class="button" id="prev" onclick="prevStep()">Previous<br>Step</button>
+            <button type="submit" class="button" id="next" onclick="nextStep()">Next<br>Step</button>
+            <button type="submit" class="button" id="start" onclick="startGame()">Start<br>Game</button>
+        </div>
+        
+        
+        <!-- Left side: Player & Game Category selection -->
+        <!--<div class="left-container">
+            <h2 class="infoTitle">Info</h2>
+            <div class="box">
+                <input type="text" class="extra" id="extra" placeholder="Type any extra text here (comma-separated), e.g. birthdays, points only, etc." onchange="updateExtra()">
+            </div>
+            
+            <h2 class="playersTitle">Players</h2>
+            <div class="box">
+                <div id="playersCheckboxes"></div>
+                <hr class="specialtyLine" id="specialtyLine">
+                <div id="specialBoxes"></div>
+            </div>
+            
+            <h2 class="gamesTitle" id="gamesTitle">Games</h2>
+            <div class="box" id="bigGameBox">
+                <div id="gameCategories">
+                    <label><input type="checkbox" class="gameCategory" value="card_games" onchange="updateGameList()"> Card Games</label>
+                    <label><input type="checkbox" class="gameCategory" value="board_games" onchange="updateGameList()"> Board Games</label>
+                    <label><input type="checkbox" class="gameCategory" value="video_games" onchange="updateGameList()"> Video Games</label>
+                    <label><input type="checkbox" class="gameCategory" value="outdoor_games" onchange="updateGameList()"> Outdoor Games</label>
+                    <label><input type="checkbox" class="gameCategory" value="other_games" onchange="updateGameList()"> Other Games</label>
+                </div>
+                <hr class="gamesLine" id="gamesLine">
+                <div class="gamesBox" id="gamesBox">
+                    <div class="gamesCheckboxes" id="cardGames"></div>
+                    <div class="gamesCheckboxes" id="boardGames"></div>
+                    <div class="gamesCheckboxes" id="videoGames"></div>
+                    <div class="gamesCheckboxes" id="outdoorGames"></div>
+                    <div class="gamesCheckboxes" id="otherGames"></div>
+                </div>
+            </div>
+        </div>-->
+
+        <!-- Right side: Selected Players & Games + Submit Button -->
+        <!--<div class="right-container">
+            <h2 class="summaryTitle">Summary</h2>
+            <div id="selectedPlayersGames">
+                <h2 class="gogTitle" id="gogTitle">Game of Games</h2>
+                <h4 class="dateText" id="dateText"></h4>
+                <h4 class="extraText" id="extraText"></h4>
+                <p><strong>Players:</strong><br><span id="selectedPlayersList">None</span></p>
+                <p><strong>Games:</strong><br><span id="selectedGamesList"></span></p>
+                <button type="submit" id="create" onclick="createGame()">Create Game</button>
+            </div>
+        </div>-->
+    </div>
+
+    <script src="create_game.js"></script>
+</body>
+</html>

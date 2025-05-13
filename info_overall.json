@@ -1,0 +1,658 @@
+{
+    "numGog": 1,
+    "allPlayers": [ "Dan", "Gid", "Jake", "Danny", "Alex", "Max", "Isabella", "Ness" ],
+    "allGames": {
+        "card_games": [
+            "Shithead", "Golf", "Skip Bo", "Monopoly Deal", "Monopoly Bid", "Muffin Time", "Here to Slay",
+            "Unstable Unicorns", "Llamas Unleashed", "Yahtzee Cards", "FUCK the Game", "Coup", "Uno",
+            "Uno Flip", "Uno No Mercy", "Cards Against Humanity", "Costumed Cats", "Struggle for Catan", "Avocado Smash", "Five Crowns"
+        ],
+        "board_games": [
+            "Monopoly", "Game of Life", "Catan", "Betrayal",
+            "Chess", "Trouble (Pop-n-hop)", "Block Party"
+        ],
+        "video_games": [
+            "Mario Kart", "Mario Party", "Super Smash Bros", "Switch Bowling", "Switch Tennis",
+            "Switch Basketball", "Switch Golf", "Minigolf Adventure", "Gang Beasts", "FIFA",
+            "NBA", "Call of Duty", "Injustice", "Street Fighter"
+        ],
+        "outdoor_games": [
+            "Basketball", "Table Tennis", "Backyard Cricket", "Soccer", "Handball",
+            "Capture the Flag", "Quoits", "Cornhole", "Shooting"
+        ],
+        "other_games": [
+            "Alphabetix", "Uno Stacko", "Jenga", "Sounds Fishy"
+        ]
+    },
+    "allGamesInfo": [
+        {
+            "game": "Shithead",
+            "tag": "shithead",
+            "type": "card",
+            "results": "knockout",
+            "winner": "first",
+            "header": "Shuffe those cards and don't be the shithead!<br><br>Click your name when you're done.",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Golf",
+            "tag": "golf",
+            "type": "card",
+            "results": "table",
+            "winner": "lowest",
+            "header": "",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Skip Bo",
+            "tag": "skip_bo",
+            "type": "card",
+            "results": "knockout",
+            "winner": "first",
+            "header": "",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Monopoly Deal",
+            "tag": "monopoly_deal",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Build up those property sets!",
+            "player_min": 2,
+            "player_max": 5,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Monopoly Bid",
+            "tag": "monopoly_bid",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Build up those property sets!<br>I think?",
+            "player_min": 2,
+            "player_max": 5,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Muffin Time",
+            "tag": "muffin",
+            "type": "card",
+            "results": "single",
+            "winner": "winner",
+            "header": "Get to 10 cards to win!",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Here to Slay",
+            "tag": "here_to_slay",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Successfully slay 3 monsters or build a full party with 6 classes to win!",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Unstable Unicorns",
+            "tag": "unicorns",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get to 7 unicorns to win!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Llamas Unleashed",
+            "tag": "llamas",
+            "type": "card",
+            "results": "table",
+            "winner": "closest",
+            "header": "Get to 7 animals to win!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Yahtzee Cards",
+            "tag": "yahtzee_cards",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get as many points as you can!",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "FUCK the Game",
+            "tag": "fuck",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get as many points as you can!",
+            "player_min": 3,
+            "player_max": 8,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Coup",
+            "tag": "coup",
+            "type": "card",
+            "results": "knockout",
+            "winner": "last",
+            "header": "Don't get killed!",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Uno",
+            "tag": "uno",
+            "type": "card",
+            "results": "knockout",
+            "winner": "first",
+            "header": "Get rid of all of your cards!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Uno Flip",
+            "tag": "uno_flip",
+            "type": "card",
+            "results": "knockout",
+            "winner": "first",
+            "header": "Get rid of all of your cards!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Uno No Mercy",
+            "tag": "uno_no_mercy",
+            "type": "card",
+            "results": "knockout",
+            "winner": "first",
+            "header": "Get rid of all of your cards or be the last to die!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Cards Against Humanity",
+            "tag": "cah",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "",
+            "player_min": 4,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Costumed Cats",
+            "tag": "cats",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Match those cats!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Struggle for Catan",
+            "tag": "sf_catan",
+            "type": "card",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get 10 Victory points to win!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Avocado Smash",
+            "tag": "avocado",
+            "type": "card",
+            "results": "knockout",
+            "winner": "first",
+            "header": "Get rid of all of your cards to win!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Monopoly",
+            "tag": "monopoly",
+            "type": "board",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get rich!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Game of Life",
+            "tag": "go_life",
+            "type": "board",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get rich!",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Catan",
+            "tag": "catan",
+            "type": "board",
+            "results": "table",
+            "winner": "highest",
+            "header": "Get 10 Victory points to win!",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Betrayal",
+            "tag": "betrayal",
+            "type": "board",
+            "results": "special",
+            "winner": "winner",
+            "header": "Don't die (or maybe do if you need to)<br><br>Who is the traitor?",
+            "player_min": 3,
+            "player_max": 6,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Chess",
+            "tag": "chess",
+            "type": "board",
+            "results": "tournament",
+            "winner": "winner",
+            "header": "Attack those pieces while defending yours!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Trouble (Pop-n-hop)",
+            "tag": "trouble",
+            "type": "board",
+            "results": "knockout",
+            "winner": "first",
+            "header": "Get your pieces around the board and into the middle!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Block Party",
+            "tag": "block_party",
+            "type": "board",
+            "results": "table",
+            "winner": "highest",
+            "header": "Build some blocks and shit!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Mario Kart",
+            "tag": "mario_kart",
+            "type": "video",
+            "results": "table",
+            "winner": "highest",
+            "header": "Drive those carts or bikes around the track!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Mario Party",
+            "tag": "mario_party",
+            "type": "video",
+            "results": "special",
+            "winner": "winner",
+            "header": "",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "Super Smash Bros",
+            "tag": "smash",
+            "type": "video",
+            "results": "multiple",
+            "winner": "",
+            "header": "",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Switch Bowling",
+            "tag": "s_bowling",
+            "type": "video",
+            "results": "table",
+            "winner": "highest",
+            "header": "Knock those pins down!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_order"
+        },
+        {
+            "game": "Switch Tennis",
+            "tag": "s_tennis",
+            "type": "video",
+            "results": "team",
+            "winner": "winner",
+            "header": "Hit those balls over the net!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "Switch Basketball",
+            "tag": "s_basketball",
+            "type": "video",
+            "results": "multiple",
+            "winner": "",
+            "header": "Shoot those hoops!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "Switch Golf",
+            "tag": "s_golf",
+            "type": "video",
+            "results": "table",
+            "winner": "lowest",
+            "header": "Hit those balls!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_order"
+        },
+        {
+            "game": "Minigolf Adventure",
+            "tag": "minigolf_a",
+            "type": "video",
+            "results": "table",
+            "winner": "lowest",
+            "header": "Hit those balls with some totally normal gravity!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_order"
+        },
+        {
+            "game": "Gang Beasts",
+            "tag": "gang_beasts",
+            "type": "video",
+            "results": "table",
+            "winner": "highest",
+            "header": "Throw everyone off! Now!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "FIFA",
+            "tag": "fifa",
+            "type": "video",
+            "results": "team",
+            "winner": "winner",
+            "header": "Get as many goals as you can!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "NBA",
+            "tag": "nba",
+            "type": "video",
+            "results": "team",
+            "winner": "winner",
+            "header": "Get as many points as you can!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "Call of Duty",
+            "tag": "cod",
+            "type": "video",
+            "results": "table",
+            "winner": "highest",
+            "header": "KILL! KILL! KILL!",
+            "player_min": 2,
+            "player_max": 4,
+            "starting": ""
+        },
+        {
+            "game": "Injustice",
+            "tag": "injustice",
+            "type": "video",
+            "results": "tournament",
+            "winner": "winner",
+            "header": "FIGHT! FIGHT! FIGHT!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Street Fighter",
+            "tag": "street_figher",
+            "type": "video",
+            "results": "tournament",
+            "winner": "winner",
+            "header": "FIGHT! FIGHT! FIGHT!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Basketball",
+            "tag": "basketball",
+            "type": "outdoor",
+            "results": "team",
+            "winner": "winner",
+            "header": "Shoot those hoops!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Table Tennis",
+            "tag": "table_tennis",
+            "type": "outdoor",
+            "results": "tournament",
+            "winner": "winner",
+            "header": "Hit those balls",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Backyard Cricket",
+            "tag": "cricket",
+            "type": "outdoor",
+            "results": "team",
+            "winner": "winner",
+            "header": "Hit those balls!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Soccer",
+            "tag": "soccer",
+            "type": "outdoor",
+            "results": "team",
+            "winner": "winner",
+            "header": "Kick the ball into the net!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Handball",
+            "tag": "handball",
+            "type": "outdoor",
+            "results": "tournament",
+            "winner": "winner",
+            "header": "Hit those balls across the court!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Capture the Flag",
+            "tag": "ct_flag",
+            "type": "outdoor",
+            "results": "team",
+            "winner": "winner",
+            "header": "Capture those flags!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Quoits",
+            "tag": "quoits",
+            "type": "outdoor",
+            "results": "table",
+            "winner": "highest",
+            "header": "Throw those rings!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_order"
+        },
+        {
+            "game": "Cornhole",
+            "tag": "cornhole",
+            "type": "outdoor",
+            "results": "table",
+            "winner": "highest",
+            "header": "Throw those sacks!",
+            "player_min": 2,
+            "player_max": 8,
+            "starting": "wheel_order"
+        },
+        {
+            "game": "Shooting",
+            "tag": "shooting",
+            "type": "outdoor",
+            "results": "table",
+            "winner": "highest",
+            "header": "Shoot the gun!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_order"
+        },
+        {
+            "game": "Alphabetix",
+            "tag": "alphabetix",
+            "type": "other",
+            "results": "table",
+            "winner": "highest",
+            "header": "Come up with as many words as you can for the current letter!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Uno Stacko",
+            "tag": "uno_stacko",
+            "type": "other",
+            "results": "single",
+            "winner": "winner",
+            "header": "Stack those blocks!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Jenga",
+            "tag": "jenga",
+            "type": "other",
+            "results": "single",
+            "winner": "winner",
+            "header": "Stack those blocks!",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": "wheel_first"
+        },
+        {
+            "game": "Sounds Fishy",
+            "tag": "fishy",
+            "type": "other",
+            "results": "table",
+            "winner": "highest",
+            "header": "",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Block Party",
+            "tag": "block_party",
+            "type": "other",
+            "results": "table",
+            "winner": "highest",
+            "header": "",
+            "player_min": 2,
+            "player_max": 10,
+            "starting": ""
+        },
+        {
+            "game": "Five Crowns",
+            "tag": "five_crowns",
+            "type": "card",
+            "results": "table",
+            "winner": "lowest",
+            "header": "",
+            "player_min": 2,
+            "player_max": 6,
+            "starting": ""
+        }
+    ],
+    "pointsSystem": {
+        "points": [
+            [ "1 point", "0 points"],
+            [ "2 points", "1 point", "0 points" ],
+            [ "3 points", "2 points", "1 point", "0 points" ],
+            [ "4 points", "3 points", "2 points", "1 point", "0 points" ],
+            [ "5 points", "4 points", "3 points", "2 points", "1 point", "0 points" ],
+            [ "6 points", "5 points", "4 points", "3 points", "2 points", "1 point", "0 points" ],
+            [ "7 points", "6 points", "5 points", "4 points", "3 points", "2 points", "1 point", "0 points" ],
+            [ "8 points", "7 points", "6 points", "5 points", "4 points", "3 points", "2 points", "1 point", "0 points" ],
+            [ "9 points", "8 points", "7 points", "6 points", "5 points", "4 points", "3 points", "2 points", "1 point", "0 points" ]
+        ],
+        "pointsShots": [
+            [ "1 point", "1 shot" ],
+            [ "1 point", "Nothing", "1 shot" ],
+            [ "2 points", "1 point", "nc", "1 shot" ],
+            [ "2 points", "1 point", "pc", "nc", "1 shot" ],
+            [ "3 points", "2 points", "1 point", "pc", "nc", "1 shot" ],
+            [ "3 points", "2 points", "1 point", "pc", "nc", "1 shot", "1 shot" ],
+            [ "4 points", "3 points", "2 points", "1 point", "pc", "nc", "1 shot", "1 shot" ],
+            [ "4 points", "3 points", "2 points", "1 point", "pn", "pc", "nc", "1 shot", "1 shot" ],
+            [ "5 points", "4 points", "3 points", "2 points", "1 point", "pn", "pc", "nc", "1 shot", "1 shot" ]
+        ]
+    }
+}

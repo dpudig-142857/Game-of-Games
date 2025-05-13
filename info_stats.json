@@ -1,0 +1,725 @@
+{
+    "player_stats": [
+        {
+            "name": "Dan",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 3,
+                "loss_shot": 0,
+                "coin_shot": 0,
+                "wheel_shot": 0,
+                "victory_shot": 1
+            },
+            "points": {
+                "game_point": 5,
+                "coin_point": 0,
+                "specialty_won": 0,
+                "specialty_lost": -1
+            },
+            "gooc_cards": {
+                "total": 0,
+                "used": 0
+            }
+        },
+        {
+            "name": "Gid",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 2,
+                "loss_shot": 2,
+                "coin_shot": 0,
+                "wheel_shot": 0,
+                "victory_shot": 0
+            },
+            "points": {
+                "game_point": 0,
+                "coin_point": 0,
+                "specialty_won": 0,
+                "specialty_lost": 0
+            },
+            "gooc_cards": {
+                "total": 0,
+                "used": 0
+            }
+        },
+        {
+            "name": "Jake",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 2,
+                "loss_shot": 1,
+                "coin_shot": 0,
+                "wheel_shot": 0,
+                "victory_shot": 0
+            },
+            "points": {
+                "game_point": 2,
+                "coin_point": 0,
+                "specialty_won": 0,
+                "specialty_lost": 0
+            },
+            "gooc_cards": {
+                "total": 1,
+                "used": 0
+            }
+        },
+        {
+            "name": "Danny",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 2,
+                "loss_shot": 0,
+                "coin_shot": 1,
+                "wheel_shot": 0,
+                "victory_shot": 0
+            },
+            "points": {
+                "game_point": 4,
+                "coin_point": 0,
+                "specialty_won": 1,
+                "specialty_lost": 0
+            },
+            "gooc_cards": {
+                "total": 0,
+                "used": 0
+            }
+        },
+        {
+            "name": "Alex",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 3,
+                "loss_shot": 2,
+                "coin_shot": 0,
+                "wheel_shot": 0,
+                "victory_shot": 0
+            },
+            "points": {
+                "game_point": 2,
+                "coin_point": 0,
+                "specialty_won": 0,
+                "specialty_lost": 0
+            },
+            "gooc_cards": {
+                "total": 0,
+                "used": 0
+            }
+        },
+        {
+            "name": "Max",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 2,
+                "loss_shot": 1,
+                "coin_shot": 0,
+                "wheel_shot": 0,
+                "victory_shot": 1
+            },
+            "points": {
+                "game_point": 3,
+                "coin_point": 0,
+                "specialty_won": 0,
+                "specialty_lost": 0
+            },
+            "gooc_cards": {
+                "total": 0,
+                "used": 0
+            }
+        },
+        {
+            "name": "Bella",
+            "num_gog": 1,
+            "shots": {
+                "pre_game_shot": 2,
+                "loss_shot": 2,
+                "coin_shot": 1,
+                "wheel_shot": 0,
+                "victory_shot": 0
+            },
+            "points": {
+                "game_point": 0,
+                "coin_point": 0,
+                "specialty_won": 0,
+                "specialty_lost": 0
+            },
+            "gooc_cards": {
+                "total": 1,
+                "used": 1
+            }
+        }
+    ],
+    "game_stats": [
+        {
+            "name": "Shithead",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Golf",
+            "times_played": 1,
+            "Dan": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 1 },
+            "Bella": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Trash",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Skip Bo",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Monopoly Deal",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Monopoly Bid",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Muffin Time",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Unstable Unicorns",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Llamas Unleashed",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Yahtzee Cards",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "FUCK the Game",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Coup",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Uno",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Uno Flip",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Poker",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Cards Against Humanity",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Costumed Cats",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Struggle for Catan",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Monopoly",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Game of Life",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Catan",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Betrayal at House on the Hill",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Game of Thrones Risk",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Chess",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Trouble (Pop-n-hop)",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Block Party",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Mario Kart",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Mario Party",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Super Smash Bros",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Switch Bowling",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Switch Tennis",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Switch Basketball",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Switch Golf",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Minigolf Adventure",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Gang Beasts",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "FIFA",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "NBA",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Call of Duty",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Injustice",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Street Fighter",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Basketball",
+            "times_played": 1,
+            "Dan": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 1 },
+            "Gid": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 1 },
+            "Danny": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 1 },
+            "Alex": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Table Tennis",
+            "times_played": 1,
+            "Dan": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 1 },
+            "Alex": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 1, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Backyard Cricket",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Soccer",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Handball",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Capture the Flag",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Quoits",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Cornhole",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Shooting",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Alphabetix",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Uno Stacko",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        },
+        {
+            "name": "Jenga",
+            "times_played": 0,
+            "Dan": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Gid": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Jake": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Danny": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Alex": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Max": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 },
+            "Bella": { "played": 0, "neighed": 0, "super_neighed": 0, "won": 0 }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="tab-title">Game of Games</title>
+    <link rel="stylesheet" href="game_results.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="assets/GameofGamesV4-Transparent.png" alt="GoG Logo" class="logo">
+            <div class="hover-box">
+                <p><strong>Founders:</strong><br>The Boys</p>
+                <br>
+                <p><strong>Developer:</strong><br>Dan Pudig</p>
+                <br>
+                <p><strong>Illustrator:</strong><br>Madi Foley</p>
+            </div>
+        </div>
+        <div class="title" id="title">Game of Games Results</div>
+        <div class="header-right">
+            <button class="back-button" onclick="window.history.back()">Back</button>
+            <button class="home-button" onclick="window.location.href='/'">Home</button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="left big-box">
+            <div id="game_time"></div>
+            <div id="game_systems"></div>
+        </div>
+
+        <div class="middle">
+            <div id="game_players" class="big-box"></div>
+        </div>
+
+        <div class="right">
+            <div id="game_games_played" class="big-box">
+                <div id="choose_game"></div>
+                <hr id="gamesLine">
+                <div id="show_game"></div>
+            </div>
+            <div id="game_breakdown" class="big-box"></div>
+        </div>
+    </div>
+
+    <script src="game_results.js"></script>
+</body>
+</html>
